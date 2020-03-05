@@ -27,7 +27,7 @@ Installing and using these schemes is straightforward.
 1. Install both packages from this GitHub repository by typing the following command at the command line:
 
 ```stata
-net install scheme-modern, from("https://raw.githubusercontent.com/mdroste/stata-scheme-modern/master/")
+net install scheme-modern, from("https://raw.githubusercontent.com/dballaelliott/allston/master/")
 ```
 
 2. To use the light-colored theme, simply type:
