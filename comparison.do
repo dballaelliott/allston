@@ -1,5 +1,5 @@
 
-cd C:\Users\Mike\Documents\Github\stata-modern
+// cd C:\Users\Mike\Documents\Github\stata-modern
 cap mkdir figs
 
 *-------------------------------------------------------------------------------

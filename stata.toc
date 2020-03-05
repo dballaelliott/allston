@@ -1,4 +1,4 @@
 
-v 0.5
-d Michael Droste, thedroste@gmail.com
-p 'scheme-modern': pretty schemes for stata
+v 0.1
+d Dylan Balla-Elliott, dballaelliott@gmail.com
+p 'allston': a pair of modern stata themes

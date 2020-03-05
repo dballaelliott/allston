@@ -1,0 +1,8 @@
+v 1.0
+d
+d 'allston': modern stata themes
+d
+d Distribution-Date: 5mar2020
+d
+f allston.scheme
+f brighton.scheme

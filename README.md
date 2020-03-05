@@ -1,4 +1,4 @@
-stata-scheme-modern
+allston
 =================================
 
 [Overview](#overview)
@@ -9,9 +9,6 @@ stata-scheme-modern
 | [Acknowledgements](#acknowledgements)
 
 Pretty graphical schemes to replace Stata defaults
-
-`version 1.0 1jul2019`
-
 
 Overview
 ---------------------------------
@@ -27,17 +24,17 @@ Installing and using these schemes is straightforward.
 1. Install both packages from this GitHub repository by typing the following command at the command line:
 
 ```stata
-net install scheme-modern, from("https://raw.githubusercontent.com/dballaelliott/allston/master/")
+net install allston, from("https://raw.githubusercontent.com/dballaelliott/allston/master/")
 ```
 
 2. To use the light-colored theme, simply type:
 ```stata
-set scheme modern, perm
+set scheme allston, perm
 ```
 
 3. To use the dark-colored theme instead, simply type:
 ```stata
-set scheme modern_dark, perm
+set scheme brighton, perm
 ```
 
 
@@ -51,9 +48,9 @@ Screenshots
 
 ![scheme-s2color screenshot 1](figs/fig1a.png "Scheme-s2color (default)")
 
-![scheme-modern screenshot 1](figs/fig1b.png "Scheme-modern")
+![allston screenshot 1](figs/fig1b.png "allston")
 
-![scheme-modern_dark screenshot 1](figs/fig1c.png "Scheme-modern_dark")
+![brighton screenshot 1](figs/fig1c.png "brighton")
 
 </details>
 <details>
@@ -61,9 +58,9 @@ Screenshots
 
 ![scheme-s2color screenshot 2](figs/fig2a.png "Scheme-s2color (default)")
 
-![scheme-modern screenshot 2](figs/fig2b.png "Scheme-modern")
+![allston screenshot 2](figs/fig2b.png "allston")
 
-![scheme-modern_dark screenshot 2](figs/fig2c.png "Scheme-modern_dark")
+![brighton screenshot 2](figs/fig2c.png "brighton")
 
 </details>
 <details>
@@ -71,9 +68,9 @@ Screenshots
 
 ![scheme-s2color screenshot 3](figs/fig3a.png "Scheme-s2color (default)")
 
-![scheme-modern screenshot 3](figs/fig3b.png "Scheme-modern")
+![allston screenshot 3](figs/fig3b.png "allston")
 
-![scheme-modern_dark screenshot 3](figs/fig3c.png "Scheme-modern_dark")
+![brighton screenshot 3](figs/fig3c.png "brighton")
 
 </details>
 <details>
@@ -81,9 +78,9 @@ Screenshots
 
 ![scheme-s2color screenshot 4](figs/fig4a.png "Scheme-s2color (default)")
 
-![scheme-modern screenshot 4](figs/fig4b.png "Scheme-modern")
+![allston screenshot 4](figs/fig4b.png "allston")
 
-![scheme-modern_dark screenshot 4](figs/fig4c.png "Scheme-modern_dark")
+![brighton screenshot 4](figs/fig4c.png "brighton")
 
 </details>
 <details>
@@ -91,9 +88,9 @@ Screenshots
 
 ![scheme-s2color screenshot 5](figs/fig5a.png "Scheme-s2color (default)")
 
-![scheme-modern screenshot 5](figs/fig5b.png "Scheme-modern")
+![allston screenshot 5](figs/fig5b.png "allston")
 
-![scheme-modern_dark screenshot 5](figs/fig5c.png "Scheme-modern_dark")
+![brighton screenshot 5](figs/fig5c.png "brighton")
 
 </details>
 

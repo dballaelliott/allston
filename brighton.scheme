@@ -1,34 +1,25 @@
 * ===============================================================================
-* FILE: scheme-modern
-* PURPOSE: Pretty graphing scheme for Stata
-* VERSION: 1.0
-* MORE INFO: https://github.com/mdroste/stata-scheme-modern
+* FILE: brighton
+* PURPOSE: a pair of modern stata themes - darker than allston 
+* VERSION: 0.1
+* MORE INFO: https://github.com/dballaelliott/allston
 * ===============================================================================
 
 #include s2color
 
 * -------------------------------------------------------------------------------
-* Legend options
+* Legend properties
 * -------------------------------------------------------------------------------
 
-* Default position
-clockdir legend_position     4
-
-* Number of columns
+clockdir legend_position     4 * test
 numstyle legend_cols         1
-
-* Number of rows (0 = just want keys enumerated in one column)
 numstyle legend_rows         0
-
-* Legend key size
 gsize legend_key_xsize       5
-
-* XX
 yesno legend_col_first       no
 yesno legend_row_first       yes
 
 * -------------------------------------------------------------------------------
-* Graph size and margin options
+* Size options
 * -------------------------------------------------------------------------------
 
 margin axis_title small
@@ -103,8 +94,8 @@ linewidth tick              thin
 linewidth minortick         thin
 linewidth background        thin
 linewidth foreground        thin
-linewidth major_grid        thin
-linewidth minor_grid        thin
+linewidth major_grid        medium
+linewidth minor_grid        vthin
 linewidth refmarker         vthin
 linewidth matrixmark        vthin
 linewidth dots              thin
@@ -142,6 +133,7 @@ linewidth p15bar            thin
 linewidth small 			small
 linewidth histogram    		thin
 linewidth bar          		thin
+linewidth arealine          vthin
 
 linewidth refline      		medthin
 
@@ -153,30 +145,31 @@ linepattern ci          	dash
 linepattern ci_area     	solid
 
 linepattern grid        	dot
-linepattern major_grid  	dot
-linepattern minor_grid  	dot
+linepattern major_grid  	solid
+linepattern minor_grid  	solid
 
 * -------------------------------------------------------------------------------
 * Color options
 * -------------------------------------------------------------------------------
 
 * White background for all plots
-color background             white
+color background            white
 
 * Colors for grid lines and stuff
 color xyline 				gs7
 color tick         			gs9
-color minortick    			gs9
+color minortick    			white
 color grid                  gs9
-color major_grid            gs9
-color minor_grid            gs9
-color axisline     			gs8
+color major_grid            white
+color minor_grid            white
+color axisline     			white
 color matrix         		gs6    
 color matrixmarkline 		gs6    
 color refmarker      		gs11
 color refmarkline    		black
+color plotregion            "235 235 235"
 
-* Default colors for all other non-specified objects, first one should be 31 88 137
+* Default colors for all other non-specified objects
 color p1					"31 88 137"
 color p2					"155 52 58"
 color p3					"94 130 50"
@@ -199,35 +192,26 @@ intensity histogram         80
 
 * Confidence intervals
 intensity ci_area    		inten30
-color ci_area               gs4%50
-color ci_arealine           gs4%0
+color ci_area               ebblue%50
+color ci_arealine           ebblue%0
 
-opacity   bar               50
+
+opacity bar               	50
 
 * -------------------------------------------------------------------------------
 * Gridline options
 * -------------------------------------------------------------------------------
 
-yesno draw_major_grid       	no
-yesno draw_minor_grid       	no
-yesno draw_majornl_grid     	no
-yesno draw_minornl_grid     	no
+gridstyle minor minor
+
+yesno draw_major_grid       	yes
+yesno draw_minor_grid       	yes
 yesno draw_major_hgrid      	yes
-yesno draw_minor_hgrid      	no
-yesno draw_majornl_hgrid    	no
-yesno draw_minornl_hgrid    	no
+yesno draw_minor_hgrid      	yes
 yesno draw_major_vgrid      	yes
-yesno draw_minor_vgrid      	no
-yesno draw_majornl_vgrid    	no
-yesno draw_minornl_vgrid    	no
-yesno draw_major_nl_vgrid   	no
-yesno draw_minor_nl_vgrid   	no
-yesno draw_majornl_nl_vgrid 	no
-yesno draw_minornl_nl_vgrid 	no
-yesno draw_major_nl_hgrid   	no
-yesno draw_minor_nl_hgrid   	no
-yesno draw_majornl_nl_hgrid 	no
-yesno draw_minornl_nl_hgrid 	no
+yesno draw_minor_vgrid      	yes
+yesno draw_minornl_hgrid 		yes
+yesno draw_minornl_vgrid 		yes
 
 yesno grid_draw_min          	yes
 yesno grid_draw_max          	yes
@@ -236,3 +220,13 @@ yesno extend_axes_low       	yes
 yesno extend_axes_high      	yes
 yesno extend_axes_full_low  	yes
 yesno extend_axes_full_high 	yes
+
+numticks_g horizontal_tminor 	2
+numticks_g vertical_tminor 		2
+
+axisstyle dot_scale_horiz 		horizontal_default
+axisstyle dot_scale_vert 		vertical_default
+axisstyle bar_scale_horiz 		horizontal_default
+axisstyle bar_scale_vert 		vertical_default
+axisstyle box_scale_horiz 		horizontal_default
+axisstyle box_scale_vert 		vertical_default
