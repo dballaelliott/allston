@@ -34,8 +34,11 @@ yesno legend_row_first       yes
 clockdir title_position     11
 color heading               black
 
+* subtitle 
+
 clockdir subtitle_position  11
 color subheading            gs3
+gridringstyle subtitle_ring 0
 * -------------------------------------------------------------------------------
 * Graph size and margin options
 * -------------------------------------------------------------------------------
