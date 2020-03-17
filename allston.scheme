@@ -11,8 +11,9 @@
 * Legend options
 * -------------------------------------------------------------------------------
 
-* Default position
-clockdir legend_position     4
+* Default positions
+clockdir legend_position     1
+
 
 * Number of columns
 numstyle legend_cols         1
@@ -21,11 +22,17 @@ numstyle legend_cols         1
 numstyle legend_rows         0
 
 * Legend key size
-gsize legend_key_xsize       5
+gsize legend_key_xsize       6
 
 * XX
 yesno legend_col_first       no
 yesno legend_row_first       yes
+
+* -------------------------------------------------------------------------------
+* Title options
+* -------------------------------------------------------------------------------
+yesno title_span            yes
+clockdir title_position     11
 
 * -------------------------------------------------------------------------------
 * Graph size and margin options
@@ -152,10 +159,6 @@ linepattern xyline      	shortdash
 linepattern ci          	dash
 linepattern ci_area     	solid
 
-linepattern grid        	dot
-linepattern major_grid  	dot
-linepattern minor_grid  	dot
-
 * -------------------------------------------------------------------------------
 * Color options
 * -------------------------------------------------------------------------------
@@ -212,11 +215,11 @@ yesno draw_major_grid       	no
 yesno draw_minor_grid       	no
 yesno draw_majornl_grid     	no
 yesno draw_minornl_grid     	no
-yesno draw_major_hgrid      	yes
+yesno draw_major_hgrid      	no
 yesno draw_minor_hgrid      	no
 yesno draw_majornl_hgrid    	no
 yesno draw_minornl_hgrid    	no
-yesno draw_major_vgrid      	yes
+yesno draw_major_vgrid      	no
 yesno draw_minor_vgrid      	no
 yesno draw_majornl_vgrid    	no
 yesno draw_minornl_vgrid    	no
