@@ -35,7 +35,7 @@ clockdir title_position     11
 color heading               black
 
 clockdir subtitle_position  11
-color subheading            gs8
+color subheading            gs3
 * -------------------------------------------------------------------------------
 * Graph size and margin options
 * -------------------------------------------------------------------------------
@@ -177,7 +177,8 @@ color major_grid            gs9
 color minor_grid            gs9
 color axisline     			gs8
 color matrix         		gs6    
-color matrixmarkline 		gs6    
+color matrixmarkline 		gs6 
+color axis_title            gs3   
 color refmarker      		gs11
 color refmarkline    		black
 
