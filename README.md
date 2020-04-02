@@ -32,6 +32,7 @@ net install allston, from("https://raw.githubusercontent.com/dballaelliott/allst
 set scheme allston, perm
 ```
 
+_COMING SOON_
 3. To use the dark-colored theme instead, simply type:
 ```stata
 set scheme brighton, perm
