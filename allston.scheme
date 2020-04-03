@@ -267,7 +267,7 @@ yesno extend_axes_full_high  no
 
 color background             white
 
-color xyline reddish  // reddish purple
+color xyline "207 55 46"  // reddish 
 color tick         gs10
 color minortick    gs10
 
@@ -276,9 +276,10 @@ color major_grid             gs10
 color minor_grid             gs10
 color axisline     gs10
 
-color histogram      white
-color histback       gs2
-color histogram_line black
+color histogram       "219 150 52"
+opacity histogram          50
+
+color histogram_line  "219 150 52"
 
 color p         "219 150 52"    // yellow
 color p1   	    "219 150 52"    // yellow
@@ -301,9 +302,8 @@ color p7line    sea  //blue
 color p8line	orangebrown   // orange brow
 color p9line    ananas    // yellow
 
-opacity bar                30
-opacity pie                30
-opacity histogram          30
+opacity bar                50
+opacity pie                50
 
 color ci_line                gs14
 color ci_arealine            gs14
@@ -316,7 +316,6 @@ color ci2_area               gs14
 color ci2_symbol             gs14
 intensity ci2_area    	     inten30
 
-color histogram_line         black
 color refline		     gs10
 
 color box              none
