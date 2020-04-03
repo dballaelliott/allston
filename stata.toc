@@ -1,4 +1,4 @@
 
-v 0.1
+v 1.0
 d Dylan Balla-Elliott, dballaelliott@gmail.com
 p 'allston': a pair of modern stata themes
