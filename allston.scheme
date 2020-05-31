@@ -267,7 +267,7 @@ yesno extend_axes_full_high  no
 
 color background             white
 
-color xyline "207 55 46"  // reddish 
+color xyline "207 55 46"  // "85 86 122" 
 color tick         gs10
 color minortick    gs10
 
@@ -284,20 +284,20 @@ color histogram_line  "219 150 52"
 color p         "219 150 52"    // yellow
 color p1   	    "219 150 52"    // yellow
 color p2     	"67 107 85"     // green
-color p3     	"41 74 92"      // blue 
-color p4    	turquoise       // bluish green
-color p5      	reddish         // reddish purple
-color p6      	vermillion      // vermillion
+color p3     	"64 80 99"      // slate blue 
+color p4    	"130 88 85"     // rose
+color p5      	"85 86 122"     //  purple
+color p6      	"99 108 94"      // slate green
 color p7	    sea             //blue
 color p8    	orangebrown     // orange brown
 color p9    	ananas          // yellow
 
 color p1line   "219 150 52"     // yellow
 color p2line   "67 107 85"      // green
-color p3line   "41 74 92"       // blue 
-color p4line    turquoise       // bluish green
-color p5line    reddish  // reddish purple
-color p6line    vermillion  // vermillion
+color p3line   "64 80 99"       // slate blue 
+color p4line   "130 88 85"     // rose
+color p5line    "85 86 122"  //  purple
+color p6line    "99 108 94"  // slate green
 color p7line    sea  //blue
 color p8line	orangebrown   // orange brow
 color p9line    ananas    // yellow
