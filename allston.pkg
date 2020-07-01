@@ -1,8 +1,8 @@
-v 1.0
+v 2.0
 d
-d 'allston': modern stata themes
+d 'allston': accessible, minimalist stata themes
 d
-d Distribution-Date: 1apr2020
+d Distribution-Date: 1jul2020
 d
 f allston.scheme
-f brighton.scheme
+f frost.scheme

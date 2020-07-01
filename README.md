@@ -4,7 +4,6 @@ allston
 [Overview](#overview)
 | [Installation](#installation)
 | [Screenshots](#screenshots)
-| [Benchmarks](#benchmarks)
 | [To-Do](#todo)
 | [Acknowledgements](#acknowledgements)
 
@@ -13,8 +12,7 @@ Pretty graphical schemes to replace Stata defaults
 Overview
 ---------------------------------
 
-Stata's default graphics don't look that good. This program provides two replacement schemes that look better. You can check out some pictures of what these schemes look like in the [Screenshots](#screenshots) section below. Note that these scheme options - for instance, placing the content of legends outside the graph region - can always be overrided. The purpose of these schemes is to provide default options that are closer to what you might want and look better out of the box.
-
+Stata's default graphics don't look that good. This program provides three replacement schemes that look better. You can check out some pictures of what these schemes look like in the [Screenshots](#screenshots) section below. 
 
 Installation
 ---------------------------------
@@ -27,15 +25,21 @@ Installing and using these schemes is straightforward.
 net install allston, from("https://raw.githubusercontent.com/dballaelliott/allston/master/")
 ```
 
-2. To use the light-colored theme, simply type:
+1. To use the light-colored theme, type:
 ```stata
 set scheme allston, perm
 ```
 
-_COMING SOON_
-3. To use the dark-colored theme instead, simply type:
+1. To use the [frost](https://www.nordtheme.com/docs/colors-and-palettes#frost) theme, type:
 ```stata
-set scheme brighton, perm
+set scheme frost, perm
+```
+
+
+_COMING SOON_
+1. To use the [aurora](https://www.nordtheme.com/docs/colors-and-palettes#aurora) theme instead, simply type:
+```stata
+set scheme aurora, perm
 ```
 
 
@@ -98,6 +102,7 @@ Screenshots
 
 Acknowledgements
 ---------------------------------
+The excellent [Nord palette](https://www.nordtheme.com) is the foundation of the `frost` and `aurora`
 
 These schemes were built by combining elements from two existing schemes: (1) the leap-slides used by the Opportunity Insights research group from 2015 to present; (2) the [cleanplots](https://www.trentonmize.com/software/cleanplots) scheme produced by Trenton D. Mize.
 
