@@ -1,10 +1,11 @@
-
 * ===============================================================================
-* FILE: nord
-* PURPOSE: use the nord color palette for the series
-* VERSION: 0.1
+* FILE: frost
+* PURPOSE: accessible, minimalist stata themes - build on the nord color palette
+* VERSION: 1.1
 * MORE INFO: https://github.com/dballaelliott/allston
 * ===============================================================================
+
+#include s2color
 
 * -------------------------------------------------------------------------------
 * Legend options
@@ -291,15 +292,16 @@ color p7	    sea             //blue
 color p8    	orangebrown     // orange brown
 color p9    	ananas          // yellow
 
-color p1line        "136 192 208"   // nord8
-color p2line   	    "143 188 187"   // nord7
-color p3line     	"129 161 193"   // nord9
-color p4line     	"94 129 172"    // nord10
-color p5line    "85 86 122"  //  purple
-color p6line    "99 108 94"  // slate green
-color p7line    sea  //blue
-color p8line	orangebrown   // orange brow
-color p9line    ananas    // yellow
+color p1line    "136 192 208"   // nord8
+color p2line   	"143 188 187"   // nord7
+color p3line    "129 161 193"   // nord9
+color p4line    "94 129 172"    // nord10
+color p5line    "85 86 122"     //  purple
+color p6line    "99 108 94"     // slate green
+color p7line    sea             //blue
+color p8line	orangebrown     // orange brow
+color p9line    ananas          // yellow
+
 
 opacity bar                80
 opacity pie                80

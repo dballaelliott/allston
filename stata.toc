@@ -1,4 +1,9 @@
 
-v 1.0
+v 2.0
 d Dylan Balla-Elliott, dballaelliott@gmail.com
-p 'allston': a pair of modern stata themes
+p 'allston': accessible, minimalist stata themes
+d
+d Distribution-Date: 1jul2020
+d
+f allston.scheme
+f frost.scheme
