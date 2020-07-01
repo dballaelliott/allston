@@ -1,7 +1,7 @@
 * ===============================================================================
 * FILE: frost
 * PURPOSE: accessible, minimalist stata themes - build on the nord color palette
-* VERSION: 1.1
+* VERSION: 1.2
 * MORE INFO: https://github.com/dballaelliott/allston
 * ===============================================================================
 
@@ -281,22 +281,23 @@ opacity histogram          80
 
 color histogram_line  "219 150 52"
 
-color p         "136 192 208"   // nord8
+color p         "94 129 172"   // nord10
 color p1        "136 192 208"   // nord8
-color p2   	    "143 188 187"   // nord7
-color p3     	"129 161 193"   // nord9
-color p4     	"94 129 172"    // nord10
+color p2     	"129 161 193"   // nord9
+color p3     	"94 129 172"    // nord10
+color p4   	    "143 188 187"   // nord7
 color p5    	"130 88 85"     // rose
 color p6      	"99 108 94"      // slate green
 color p7	    sea             //blue
 color p8    	orangebrown     // orange brown
 color p9    	ananas          // yellow
 
+color pline     "136 192 208"   // nord8
 color p1line    "136 192 208"   // nord8
-color p2line   	"143 188 187"   // nord7
-color p3line    "129 161 193"   // nord9
-color p4line    "94 129 172"    // nord10
-color p5line    "85 86 122"     //  purple
+color p2line    "129 161 193"   // nord9
+color p3line    "94 129 172"    // nord10
+color p4line   	"143 188 187"   // nord7
+color p5line    "130 88 85"     // rose
 color p6line    "99 108 94"     // slate green
 color p7line    sea             //blue
 color p8line	orangebrown     // orange brow

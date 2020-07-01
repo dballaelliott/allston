@@ -1,5 +1,5 @@
 
-v 2.0
+v 2.2
 d Dylan Balla-Elliott, dballaelliott@gmail.com
 p 'allston': accessible, minimalist stata themes
 d
