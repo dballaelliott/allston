@@ -2,7 +2,7 @@
 * ===============================================================================
 * FILE: aurora
 * PURPOSE: frost/aurora are a dyad of accessible, minimalist stata themes built on the nord color palette
-* VERSION: 0.1
+* VERSION: 0.2
 * MORE INFO: https://github.com/dballaelliott/allston
 * ===============================================================================
 
@@ -20,15 +20,13 @@ opacity histogram       60
 color histogram_line    "94 129 172" // nord10
 
 color p         "94 129 172"    // nord10 dkblue
-color p1   	    "94 129 172"    // nord10 dkblue
-color p2     	"143 188 187"   // nord7  light green-blue 
-color p3     	"208 135 112"   // nord12 orange 
-color p4        "191 97 106"    // nord11 red 
-color p5    	"235 203 139"   // nord13 yellow 
+color p1   	    "143 188 187"   // nord7  light green-blue
+color p2     	"208 135 112"   // nord12 orange 
+color p3     	"191 97 106"    // nord11 red 
+color p4        "235 203 139"   // nord13 yellow 
 
 
-color p1line    "94 129 172"    // nord10 dkblue
-color p2line   	"143 188 187"   // nord7  light green-blue 
-color p3line    "208 135 112"   // nord12 orange 
-color p4line    "191 97 106"    // nord11 red 
-color p5line    "235 203 139"   // nord13 yellow 
+color p1line    "143 188 187"   // nord7  light green-blue
+color p2line   	"208 135 112"   // nord12 orange 
+color p3line    "191 97 106"    // nord11 red 
+color p4line    "235 203 139"   // nord13 yellow 
