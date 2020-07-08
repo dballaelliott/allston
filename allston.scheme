@@ -1,7 +1,7 @@
 * ===============================================================================
 * FILE: allston
 * PURPOSE: a trio of accessible, minimalist stata themes
-* VERSION: 0.2
+* VERSION: 0.3
 * MORE INFO: https://github.com/dballaelliott/allston
 * ===============================================================================
 
@@ -217,7 +217,7 @@ linepattern ci2_line    solid
 linepattern ci2_area    solid
 
 linepattern p1line  solid
-linepattern p2line  solid
+linepattern p2line  dash
 linepattern p3line  vshortdash
 linepattern p4line  longdash_dot
 linepattern p5line  longdash
