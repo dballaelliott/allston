@@ -1,12 +1,13 @@
 * ===============================================================================
 * FILE: allston
-* PURPOSE: a pair of modern stata themes - lighter than brighton
+* PURPOSE: a trio of accessible, minimalist stata themes
 * VERSION: 0.2
 * MORE INFO: https://github.com/dballaelliott/allston
 * ===============================================================================
 
 #include s2color
-
+label "minimalist theme"
+ 
 * -------------------------------------------------------------------------------
 * Legend options
 * -------------------------------------------------------------------------------

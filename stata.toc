@@ -1,5 +1,5 @@
 
-v 2.2
+v 3.0
 d Dylan Balla-Elliott, dballaelliott@gmail.com
 p 'allston': accessible, minimalist stata themes
 d
@@ -7,3 +7,4 @@ d Distribution-Date: 1jul2020
 d
 f allston.scheme
 f frost.scheme
+f aurora.scheme

@@ -36,7 +36,6 @@ set scheme frost, perm
 ```
 
 
-_COMING SOON_
 1. To use the [aurora](https://www.nordtheme.com/docs/colors-and-palettes#aurora) theme instead, simply type:
 ```stata
 set scheme aurora, perm
