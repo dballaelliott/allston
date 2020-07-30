@@ -41,7 +41,7 @@ set scheme frost, perm
 set scheme aurora, perm
 ```
 
-
+<!-- 
 Screenshots
 ---------------------------------
 
@@ -97,7 +97,7 @@ Screenshots
 ![brighton screenshot 5](figs/fig5c.png "brighton")
 
 </details>
-
+ -->
 
 Acknowledgements
 ---------------------------------
