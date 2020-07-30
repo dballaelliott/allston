@@ -101,8 +101,8 @@ Screenshots
 
 Acknowledgements
 ---------------------------------
-The excellent [Nord palette](https://www.nordtheme.com) is the foundation of the `frost` and `aurora`
+The excellent [Nord palette](https://www.nordtheme.com) is the foundation of the `frost` and `aurora`. The colors in `allston` were at least partially inspired by Gray Kimborough's [Uncluttered Stata Graphs](https://github.com/graykimbrough/uncluttered-stata-graphs)
 
-These schemes were built by combining elements from two existing schemes: (1) the leap-slides used by the Opportunity Insights research group from 2015 to present; (2) the [cleanplots](https://www.trentonmize.com/software/cleanplots) scheme produced by Trenton D. Mize.
+These schemes started as a fork of Michael Droste's [stata-scheme-modern](https://github.com/mdroste/stata-scheme-modern) which draws on elements from two existing schemes: (1) the leap-slides used by the Opportunity Insights research group from 2015 to present; (2) the [cleanplots](https://www.trentonmize.com/software/cleanplots) scheme produced by Trenton D. Mize.
 
-Interested users might also like to check out other work; for instance, the [grstyle](https://boris.unibe.ch/117391/1/grstyle-Konstanz-2018.pdf) command by Ben Jann.
+Interested users might also like to check out other work; for instance, the [grstyle](https://boris.unibe.ch/117391/1/grstyle-Konstanz-2018.pdf) command by Ben Jann. 
